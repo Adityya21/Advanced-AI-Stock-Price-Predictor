@@ -11,7 +11,6 @@ AI stock price predictor using ensemble of LSTM, Random Forest &amp; XGBoost mod
 - **Model persistence**: saves trained models to disk
 - **Works for any ticker**: stocks, indices, crypto, Indian NSE stocks
 
----
 
 ## 🛠️ Installation
 
@@ -19,7 +18,6 @@ AI stock price predictor using ensemble of LSTM, Random Forest &amp; XGBoost mod
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost tensorflow yfinance joblib
 ```
 
----
 
 ## 🚀 Usage
 
@@ -50,8 +48,6 @@ for stock in stocks:
     predict_stock(stock, period='2y', epochs=50, future_days=30)
 ```
 
----
-
 ## 🏗️ Architecture
 
 ```
@@ -77,7 +73,6 @@ BiLSTM(128) → Dropout(0.3) → BiGRU(64) → Dropout(0.3)
 Loss: Huber | Optimizer: Adam(lr=0.001)
 ```
 
----
 
 ## 📊 Technical Indicators Used
 
@@ -90,7 +85,6 @@ Loss: Huber | Optimizer: Adam(lr=0.001)
 | Price Action | Momentum(5/10), Support/Resistance(20), Log Returns |
 | Time | Cyclical day-of-week & month encoding |
 
----
 
 ## 📁 Output Files
 
@@ -104,7 +98,6 @@ Loss: Huber | Optimizer: Adam(lr=0.001)
 | `saved_models/xgb_{TICKER}.pkl` | Saved XGBoost |
 | `saved_models/scaler_{TICKER}.pkl` | MinMaxScaler |
 
----
 
 ## 📈 Supported Tickers
 
@@ -116,7 +109,6 @@ Loss: Huber | Optimizer: Adam(lr=0.001)
 | Crypto | `BTC-USD`, `ETH-USD` |
 | India (NSE) | `RELIANCE.NS`, `TCS.NS`, `INFY.NS`, `HDFCBANK.NS` |
 
----
 
 ## ⚙️ Configuration
 
@@ -128,7 +120,6 @@ Loss: Huber | Optimizer: Adam(lr=0.001)
 | `forecast_days` | 1 | Multi-step prediction horizon |
 | `batch_size` | 32 | LSTM batch size |
 
----
 
 ## 📉 Evaluation Metrics
 
