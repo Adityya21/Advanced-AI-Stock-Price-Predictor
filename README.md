@@ -1,11 +1,5 @@
-# Advanced-AI-Stock-Price-Predictor
+# 🤖 Advanced-AI-Stock-Price-Predictor
 AI stock price predictor using ensemble of LSTM, Random Forest &amp; XGBoost models. Fetches real-time data via Yahoo Finance, engineers 30+ technical indicators, and forecasts future prices for any stock, index, or crypto ticker. Built with Python, TensorFlow &amp; Scikit-learn.
-# 🤖 Advanced AI Stock Price Predictor
-
-Real-time stock price prediction using ensemble of LSTM, Random Forest, and XGBoost models with 30+ technical indicators.
-
----
-
 ## 📌 Features
 
 - **Real-time data** via Yahoo Finance (`yfinance`)
