@@ -141,6 +141,3 @@ Best model auto-selected by highest R² score.
 
 
 
-- Python 3.8+
-- TensorFlow 2.x
-- 4GB+ RAM recommended for LSTM training
